@@ -1,53 +1,84 @@
-h1 {
-    text-align: center;
+body {
+  background: #000;
+  font-family: Helvetica, Arial, "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #555;
 }
-
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Helvetica, Arial, "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+h2 {
+  text-align: center;
+  font-family: Helvetica, Arial, "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
 div {
-    text-align: left;
+  text-align: left;
 }
 
 #faultyItems {
-    visibility: hidden;   
+  visibility: hidden;
 }
 
 #launchForm {
-    background-color: #ECF0F1;
-    text-align: center;
-    margin: auto;
-    width: 25%;
-    border: 3px solid black;
-    padding: 10px;
+  background-color: #ecf0f1;
+  text-align: center;
+  margin: 50px auto;
+  width: 45%;
+  border: 3px solid #fff;
+  padding: 10px;
+  float: right;
+  min-height: 405px;
 }
-
+#launchForm form {
+  margin-top: 100px;
+}
+label {
+  padding: 10px 0;
+}
 #launchStatusCheck {
-    background-color: #ECF0F1;
-    text-align: center;
-    margin: 50px auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+  background-color: #ecf0f1;
+  text-align: center;
+  margin: 50px auto;
+  width: 98%;
+  border: 3px solid #fff;
+  padding: 10px;
+  clear: both;
 }
 
 #missionTarget img {
-    max-width: 40%;
-    max-height: 250px;
+  max-width: 40%;
+  max-height: 250px;
 }
 
 #missionTarget {
-    background-color: #ECF0F1;
-    text-align: center;
-    margin: 50px auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+  background-color: #ecf0f1;
+  text-align: center;
+  margin: 50px auto;
+  width: 45%;
+  border: 3px solid #fff;
+  padding: 10px;
+  float: left;
 }
 
 button {
-    background-color: #419f6a;
-    border: none;
-    color: white;
-    border-radius: 8px;
-    width: 25%;
-    height: 30px;
-    margin: 10px 0;
+  background-color: #419f6a;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  width: 25%;
+  height: 30px;
+  margin: 10px 0;
 }
